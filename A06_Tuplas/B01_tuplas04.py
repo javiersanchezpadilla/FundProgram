@@ -1,0 +1,45 @@
+""" Accediendo a los elementos y subelementos de una tupla"""
+
+mi_tupla = (1, 2, 'a', 'casa', [1, 2, 3, 4], [['a', 'b'], ['casa', 'perro']], True)
+
+print(mi_tupla[0])
+print(mi_tupla[1])
+print(mi_tupla[2])
+print(mi_tupla[3])
+print(mi_tupla[4])
+print(mi_tupla[5])
+print(mi_tupla[6])
+
+print('\nAccediendo a los elementos del indice 3 de la tupla "mi_tupla"')
+print(mi_tupla[3])
+print(mi_tupla[3][0])
+print(mi_tupla[3][1])
+print(mi_tupla[3][2])
+print(mi_tupla[3][3])
+
+print('\nAccediendo a los elementos individuales del elemento 4 de la tupla "mi_tupla"')
+print(mi_tupla[4])
+print(mi_tupla[4][0])
+print(mi_tupla[4][1])
+print(mi_tupla[4][2])
+print(mi_tupla[4][3])
+
+print('\nAccediendo a los elementos del índice 5 de la tupla "mi_tupla"')
+print(mi_tupla[5])
+print(mi_tupla[5][0])
+print(mi_tupla[5][0][0])
+print(mi_tupla[5][0][1])
+
+print(mi_tupla[5][1])
+print(mi_tupla[5][1][0])
+print(mi_tupla[5][1][0][0])
+print(mi_tupla[5][1][0][1])
+print(mi_tupla[5][1][0][2])
+print(mi_tupla[5][1][0][3])
+
+print(mi_tupla[5][1][1])
+print(mi_tupla[5][1][1][0])
+print(mi_tupla[5][1][1][1])
+print(mi_tupla[5][1][1][2])
+print(mi_tupla[5][1][1][3])
+print(mi_tupla[5][1][1][4])
