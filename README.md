@@ -3,4 +3,4 @@
 2. instalacion de los requerimientos pip3 install -r requerimientos.txt
 
 ## Objetivo:
-Curso de graficación en Python
+Curso de Fundamentos de programación en Python
