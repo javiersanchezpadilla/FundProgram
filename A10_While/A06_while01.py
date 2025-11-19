@@ -25,7 +25,7 @@ print("Ejemplo de uso del ciclo while para imprimir una secuencia del 1 hasta el
 numero = 1
 while numero <= 10:
     print(numero)
-    numero += 1  # Actualizamos el número para evitar un ciclo infinito
+    numero += 1             # Actualizamos el número para evitar un ciclo infinito
     # 💀💀💀💀💀
 
 """ IMPORTANTE: Evitar Ciclos Infinitos. Es crucial que el bloque de código dentro del while modifique la 

@@ -9,5 +9,5 @@ contador = 0
 while True:
     print(contador)
     if contador >= 5:
-        break  # Salir del ciclo cuando el contador alcanza 5
+        break               # Salir del ciclo cuando el contador alcanza 5
     contador += 1

@@ -9,4 +9,4 @@ indice = 0
 
 while indice < len(cadena):
     print(cadena[indice])
-    indice += 1  # Actualizamos el índice para evitar un ciclo infinito 
+    indice += 1                 # Actualizamos el índice para evitar un ciclo infinito 
