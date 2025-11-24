@@ -9,13 +9,12 @@
     Todos los programas, sin importar lo complejos que sean, usan esta función para mostrar sus resultados o 
     para depurar errores. ¡Es la primera forma en que el programa "habla" con el mundo! 
 """
+calificaciones = {
+   "Ana": {"Matematicas": 85, "Historia": 90},
+   "Beto": {"Matematicas": 78, "Historia": 88},
+   "Carlos": {"Matematicas": 92, "Historia": 70} }
 
-
-# NIVEL BASICO: IMPRIMIR TEXTO Y CARACTERES
-
-""" 1) Saludo Simple: Escribe un programa que imprima en la pantalla el mensaje: 
-"¡Hola, Python! Estoy listo para programar. """ 
-
-# print("¡Hola, Python! Estoy listo para programar")    
-    
-print('Tu nombre es ' + input('Dime tu nombre ') + " " + input('Dime tu apellido '))
+for nombre in calificaciones:
+   print("Estudiante:", nombre)
+   print("Calificación de Historia:", calificaciones[nombre]["Historia"])
+   print()
